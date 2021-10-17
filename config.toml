@@ -1,0 +1,4 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = '北美臺灣大學學術發展基金會  National Taiwan University Academic Development Foundation (NTUADF)'
+theme = "bigspring"
