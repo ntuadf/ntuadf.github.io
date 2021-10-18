@@ -3,8 +3,6 @@ title: "董事會 Foundation Board"
 date: 2021-10-17T13:51:04-07:00
 draft: false
 ---
-
-
 | **姓名** | **職稱**  | **經歷** |
 | :--: | :--: | :--: |
 | 李嗣涔 (Si-Chen Lee) | 董事長 兼 President | 電機系 (1974)<br> 前臺灣大學校長 |
