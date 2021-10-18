@@ -1,4 +1,33 @@
 baseURL = 'http://example.org/'
 languageCode = 'en-us'
-title = '北美臺灣大學學術發展基金會  National Taiwan University Academic Development Foundation (NTUADF)'
+title = '北美臺灣大學學術發展基金會'
 theme = "bigspring"
+sectionPagesMenu = "main"
+[params]
+  subtitle1 = 'NTUADF'
+  subtitle2 = 'National Taiwan University Academic Development Foundation'
+[menu]
+[[menu.main]]
+    name = "首頁 Home"
+    weight = -130
+    url = "/"
+[[menu.main]]
+    name = "董事會 Foundation Board"
+    weight = -120
+    url = "/foundation-board/"
+[[menu.main]]
+    name = "最新動態 Latest News"
+    weight = -110
+    url = "/latest-news/"
+[[menu.main]]
+    name = "相關連結 Affiliated Links"
+    weight = -100
+    url = "/affiliated-links/"
+[[menu.main]]
+    name = "捐贈臺大 Giving to NTU"
+    weight = -90
+    url = "/giving-to-ntu/"
+[[menu.main]]
+    name = "聯絡我們 Contact Us"
+    weight = -80
+    url = "/contact-us/"

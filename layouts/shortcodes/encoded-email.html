@@ -1,0 +1,6 @@
+<span id="address_{{.Get `unique_id`}}"></span>
+<script type="text/javascript">
+    var liame ='{{ .Get `address` | base64Encode }}';
+    var liame_field = document.getElementById("address_{{.Get `unique_id`}}");
+    liame_field.textContent=atob(liame);
+</script>
