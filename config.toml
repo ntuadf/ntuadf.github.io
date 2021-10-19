@@ -1,6 +1,6 @@
 baseURL = 'https://guanlinchao.github.io'
 languageCode = 'en-us'
-title = '北美臺灣大學學術發展基金會'
+title = '北美臺大學術發展基金會'
 theme = "bigspring"
 sectionPagesMenu = "main"
 [params]
@@ -28,7 +28,7 @@ sectionPagesMenu = "main"
     weight = -90
     url = "/donation-programs/"
 [[menu.main]]
-    name = "捐贈台大 Giving to NTU"
+    name = "捐贈臺大 Giving to NTU"
     weight = -80
     url = "/giving-to-ntu/"
 [[menu.main]]
