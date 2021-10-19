@@ -23,4 +23,4 @@ draft: false
 
 線上捐款單：<https://giving.ntu.edu.tw/backend/FastDonation.html>
 
-退休捐款信息：[NTU_US_Retirement_Donation_letter_2021.pdf](files/NTU_US_Retirement_Donation_letter_2021.pdf)
+退休捐款信息：[NTU_US_Retirement_Donation_letter_2021.pdf](https://guanlinchao.github.io/giving-to-ntu/files/NTU_US_Retirement_Donation_letter_2021.pdf)
