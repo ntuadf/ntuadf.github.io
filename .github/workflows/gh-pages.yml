@@ -5,9 +5,8 @@ name: github pages
 on:
   push:
     branches:
-      - master # Set a branch to deploy
+      - master, automatic-deployment-on-master-push # Set a branch to deploy
   pull_request:
-      - master
 
 jobs:
   deploy:
