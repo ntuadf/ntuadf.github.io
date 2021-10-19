@@ -24,10 +24,6 @@ sectionPagesMenu = "main"
     weight = -100
     url = "/affiliated-links/"
 [[menu.main]]
-    name = "捐贈項目 Donation Programs"
-    weight = -90
-    url = "/donation-programs/"
-[[menu.main]]
     name = "捐贈臺大 Giving to NTU"
     weight = -80
     url = "/giving-to-ntu/"
