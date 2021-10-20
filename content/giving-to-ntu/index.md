@@ -3,7 +3,7 @@ title: "捐贈臺大 Giving to NTU"
 date: 2021-10-17T14:22:13-07:00
 draft: false
 ---
-北美臺大學術發展基金會是在美國正式註冊，為一501(c)(3)非營利機構，捐贈者即使捐款臺大，在美國還是可以享有抵税優惠：
+美國臺大學術發展基金會是在美國正式註冊，為一501(c)(3)非營利機構，捐贈者即使捐款臺大，在美國還是可以享有抵税優惠：
 
 > 註冊名稱(Pay to) : National Taiwan University Academic Development Foundation
 >

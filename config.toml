@@ -1,6 +1,6 @@
 baseURL = 'https://guanlinchao.github.io'
 languageCode = 'en-us'
-title = '北美臺大學術發展基金會'
+title = '美國臺大學術發展基金會'
 theme = "bigspring"
 sectionPagesMenu = "main"
 [params]
