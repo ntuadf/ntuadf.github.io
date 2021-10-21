@@ -1,5 +1,5 @@
 ---
-title: "董事會 Foundation Board"
+title: "董事會 (Foundation Board)"
 date: 2021-10-17T13:51:04-07:00
 draft: false
 ---

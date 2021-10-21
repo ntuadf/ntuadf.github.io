@@ -1,5 +1,5 @@
 ---
-title: "捐贈臺大 Giving to NTU"
+title: "捐贈臺大 (Giving to NTU)"
 date: 2021-10-17T14:22:13-07:00
 draft: false
 ---
