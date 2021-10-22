@@ -4,8 +4,8 @@ title = '美國臺大學術發展基金會'
 theme = "bigspring"
 sectionPagesMenu = "main"
 [params]
-  subtitle1 = 'NTUADF'
-  subtitle2 = 'National Taiwan University Academic Development Foundation'
+  footer_content = "xxxzzzx"
+  title_en = 'National Taiwan University Academic Development Foundation'
 [menu]
 [[menu.main]]
     name = "首頁"
@@ -31,3 +31,5 @@ sectionPagesMenu = "main"
     name = "聯絡我們"
     weight = -70
     url = "/contact-us/"
+[markup.goldmark.renderer]
+unsafe = true
