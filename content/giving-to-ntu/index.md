@@ -5,6 +5,7 @@ draft: false
 banner:
   image: "img/main_lib_1609.jpg"
 ---
+#
 **美國臺大學術發展基金會是在美國正式註冊，為一501(c)(3)非營利機構，捐贈者即使捐款臺大，在美國還是可以享有抵税優惠：**
 
 > 註冊名稱(Pay to) : National Taiwan University Academic Development Foundation
