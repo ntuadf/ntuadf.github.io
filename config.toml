@@ -4,7 +4,7 @@ title = '美國臺大學術發展基金會'
 theme = "bigspring"
 sectionPagesMenu = "main"
 [params]
-  footer_content = "xxxzzzx"
+  footer_content = "NTUADF"
   title_en = 'National Taiwan University Academic Development Foundation'
 [menu]
 [[menu.main]]
