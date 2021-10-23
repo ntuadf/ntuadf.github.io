@@ -1,16 +1,15 @@
-baseURL = 'https://ntuadf.github.io'
-languageCode = 'en-us'
-title = '美國臺大學術發展基金會'
+baseURL = "https://www.ntuadf.org/"
+languageCode = "en-us"
+title = "美國臺大學術發展基金會"
 theme = "bigspring"
-sectionPagesMenu = "main"
 [params]
   footer_content = "NTUADF"
-  title_en = 'National Taiwan University Academic Development Foundation'
+  title_en = "National Taiwan University Academic Development Foundation"
 [menu]
 [[menu.main]]
     name = "首頁"
     weight = -130
-    url = "/home/"
+    url = "/"
 [[menu.main]]
     name = "董事會"
     weight = -120
