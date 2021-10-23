@@ -13,7 +13,7 @@ banner:
   - ***[美國捐款單(英文版).docx](https://ntuadf.github.io/files/美國捐款單(英文版).docx)***
 
 **(09/22/2021) 從美國對母校抵税捐款的管道**
-- ***[從美國對母校抵稅捐款的管道- NTUADF](https://ntuadf.github.io/files/NTUADF_Donation_Reminder_2021.pdf)***
+- ***[從美國對母校抵稅捐款的管道－NTUADF](https://ntuadf.github.io/files/NTUADF_Donation_Reminder_2021.pdf)***
 
 **(07/01/2021) 財務管理處：充實校務基金 協助校務發展**
 - ***[台大校友136期－校務報報財務處.pdf](https://ntuadf.github.io/files/台大校友136期－校務報報財務處.pdf)***
