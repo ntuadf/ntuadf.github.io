@@ -3,7 +3,7 @@ title: "首頁 (Home)"
 date: 2021-10-17T13:12:05-07:00
 draft: false
 banner:
-  image: "img/fu_clock.jpeg"
+  image: "img/fu_clock_1609.jpeg"
 ---
 **美國臺大學術發展基金會係創立於1998年。歴年來無聲扮演著臺灣大學(簡稱臺大)與美國校友及友人捐贈臺大的聯繫橋樑。**
 

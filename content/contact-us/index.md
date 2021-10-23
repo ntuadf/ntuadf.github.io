@@ -3,7 +3,7 @@ title: "聯絡我們 (Contact Us)"
 date: 2021-10-17T14:22:39-07:00
 draft: false
 banner:
-  image: "img/moon_lake.jpeg"
+  image: "img/moon_lake_1609.jpeg"
 ---
 ##### 聯絡我們 Contact Us
 - 黃慶鍾 (Ching-Chong Huang) {{< encoded-email unique_id="0" address="ntuadf@gmail.com" >}}

@@ -3,8 +3,9 @@ title: "董事會 (Foundation Board)"
 date: 2021-10-17T13:51:04-07:00
 draft: false
 banner:
-  image: "img/old_lib.jpeg"
+  image: "img/old_lib_1609.jpeg"
 ---
+
 
 | **中文姓名** | **英文姓名** | **職位經歷** |
 | :-: | :-: | :-: |
