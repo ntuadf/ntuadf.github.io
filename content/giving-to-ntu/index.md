@@ -22,7 +22,7 @@ banner:
 
 **美國捐款網頁：*****<https://giving.ntu.edu.tw/US.html>***
 
-**紙本捐款單：*****<https://giving.ntu.edu.tw/Download.html>***
+**紙本捐款單：*****[＜中文版＞](https://ntuadf.github.io/files/美國中文版捐款單.docx)*** ***[＜英文版＞](https://ntuadf.github.io/files/美國捐款單(英文版).docx)***
 
 **線上捐款單：*****<https://giving.ntu.edu.tw/backend/FastDonation.html>***
 
