@@ -20,6 +20,8 @@ banner:
 >
 > Willowbrook, IL 60527
 
+**捐贈項目説明：*****<https://giving.ntu.edu.tw/Items.html>***
+
 **美國捐款網頁：*****<https://giving.ntu.edu.tw/US.html>***
 
 **紙本捐款單：*****[＜中文版＞](https://ntuadf.github.io/files/美國中文版捐款單.docx)*** ***[＜英文版＞](https://ntuadf.github.io/files/美國捐款單(英文版).docx)***
