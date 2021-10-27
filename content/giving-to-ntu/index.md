@@ -36,4 +36,4 @@ banner:
 2. **如果您已滿59.5歲，也歡迎您將存在 IRA 退休帳戶的存款考慮捐給 NTUADF** (請見：***[退休捐款邀請函.pdf](https://ntuadf.github.io/files/NTU_US_Retirement_Donation_letter_2021.pdf)*** )
 
 
-3. **您也可以考慮在Amazon購物，AmazonSmile 會將您購買的合格物品的0.5% 金額捐給您支持的慈善團體，如 NTUADF** (請見：***[https://smile.amazon.com/gp/chpf/about](https://smile.amazon.com/gp/chpf/about)***)
+3. **您也可以考慮在Amazon購物，AmazonSmile 會將您購買的合格物品的0.5% 金額捐給您支持的慈善團體，如 NTUADF** (請見：***[https://smile.amazon.com/ch/36-4221899](https://smile.amazon.com/ch/36-4221899)***)
