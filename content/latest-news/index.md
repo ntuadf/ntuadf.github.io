@@ -11,6 +11,7 @@ banner:
   - ***[臺大校園護樹計畫.png](https://ntuadf.github.io/files/三折頁新版彈簧二折(第二版)-02-02.png)***
   - ***[美國捐款單(中文版).docx](https://ntuadf.github.io/files/美國中文版捐款單.docx)***
   - ***[美國捐款單(英文版).docx](https://ntuadf.github.io/files/美國捐款單(英文版).docx)***
+  - ***詳情請見: [https://epaper.ntu.edu.tw/view.php?id=31101](https://epaper.ntu.edu.tw/view.php?id=31101)***
 
 **(09/22/2021) 從美國對母校抵税捐款的管道**
 - ***[從美國對母校抵稅捐款的管道－NTUADF](https://ntuadf.github.io/files/NTUADF_Donation_Reminder_2021.pdf)***
