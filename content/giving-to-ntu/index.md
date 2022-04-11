@@ -24,7 +24,7 @@ banner:
 
 **美國捐款網頁：*****<https://giving.ntu.edu.tw/US.html>***
 
-**紙本捐款單：*****[＜中文版＞](https://ntuadf.github.io/files/美國中文版捐款單.docx)*** ***[＜英文版＞](https://ntuadf.github.io/files/美國捐款單(英文版).docx)***
+**紙本捐款單：*****[＜中文版＞](https://ntuadf.org/files/美國中文版捐款單.docx)*** ***[＜英文版＞](https://ntuadf.org/files/美國捐款單(英文版).docx)***
 
 **線上捐款單：*****<https://giving.ntu.edu.tw/backend/FastDonation.html>***
 
@@ -33,7 +33,7 @@ banner:
 1. **很多美國公司都有員工配捐政策 (matching program)，請向貴公司徵詢是否可以配捐至 NTUADF。**
 
 
-2. **如果您已滿59.5歲，也歡迎您將存在 IRA 退休帳戶的存款考慮捐給 NTUADF** (請見：***[退休捐款邀請函.pdf](https://ntuadf.github.io/files/NTUADF_US_Retirement_Donation_letter_2021.pdf)*** )
+2. **如果您已滿59.5歲，也歡迎您將存在 IRA 退休帳戶的存款考慮捐給 NTUADF** (請見：***[退休捐款邀請函.pdf](https://ntuadf.org/files/NTUADF_US_Retirement_Donation_letter_2021.pdf)*** )
 
 
 3. **您也可以考慮在Amazon購物，AmazonSmile 會將您購買的合格物品的0.5% 金額捐給您支持的慈善團體，如 NTUADF** (請見：***[https://smile.amazon.com/ch/36-4221899](https://smile.amazon.com/ch/36-4221899)***)
