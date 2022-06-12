@@ -6,7 +6,8 @@ banner:
   image: "img/campus_aerial_1609.jpg"
 ---
 #
-  - ***[看見台大 - 重履心靈故鄉 NTU from above](https://www.youtube.com/watch?v=YeRzYNVpTSI)***
+**看見台大 - 重履心靈故鄉 NTU from above**
+  - ***影片:[https://www.youtube.com/watch?v=YeRzYNVpTSI](https://www.youtube.com/watch?v=YeRzYNVpTSI)***
 
 **(11/15/2021) 臺大校慶捐款邀請函**
   - ***[臺大具歷史價值建築修繕維護計畫.png](https://www.ntuadf.org/files/三折頁新版彈簧二折(第二版)-02-01.png)***
