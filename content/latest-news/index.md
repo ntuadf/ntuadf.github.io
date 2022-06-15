@@ -6,6 +6,11 @@ banner:
   image: "img/campus_aerial_1609.jpg"
 ---
 #
+**(5/20/2022) 臺大校慶捐款邀請函**
+  - ***主講者：毛愈會計師***
+  - ***主辦：大芝加哥區台大校友會***
+  - ***[https://youtu.be/mXlz7xALbCw](https://youtu.be/mXlz7xALbCw)***
+
   - ***[看見台大 - 重履心靈故鄉 NTU from above](https://www.youtube.com/watch?v=YeRzYNVpTSI)***
 
 **(11/15/2021) 臺大校慶捐款邀請函**
