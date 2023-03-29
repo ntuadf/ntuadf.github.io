@@ -19,8 +19,12 @@ theme = "bigspring"
     weight = -110
     url = "/latest-news/"
 [[menu.main]]
-    name = "相關連結"
+    name = "法規"
     weight = -100
+    url = "/laws-and-regulations/"
+[[menu.main]]
+    name = "相關連結"
+    weight = -90
     url = "/affiliated-links/"
 [[menu.main]]
     name = "捐贈臺大"
