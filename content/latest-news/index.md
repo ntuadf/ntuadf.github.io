@@ -7,9 +7,9 @@ banner:
 ---
 #
 #### (1/12/2024) 台大百歲推手募款專案 - 見證台大百年樹人軌跡
-  - 百歲推手介紹:https://homepage.ntu.edu.tw/~ntufinance/more/Centennial%20Hall.jpg
-  - 百歲紀念館介紹:https://homepage.ntu.edu.tw/~ntufinance/more/Hall.pdf
-  - 立即捐贈:https://giving.ntu.edu.tw/backend/FastDonation.html?DonateNo=150
+  - 百歲推手介紹: https://homepage.ntu.edu.tw/~ntufinance/more/Centennial%20Hall.jpg
+  - 百歲紀念館介紹: https://homepage.ntu.edu.tw/~ntufinance/more/Hall.pdf
+  - 立即捐贈: https://giving.ntu.edu.tw/backend/FastDonation.html?DonateNo=150
 
 #### (6/3/2023) 台大2023年募集「希望獎助學金」
   - 分享台大廖佩真財務長和美國台大學術發展基金會NTUADF 董事會分享的台大最新募款資訊，期盼美國各地校友會及熱心校友們也能夠來共襄盛舉，感恩！
