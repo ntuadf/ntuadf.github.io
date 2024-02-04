@@ -10,8 +10,8 @@ banner:
 | **中文姓名** | **英文姓名** | **職位經歷** |
 | :-: | :-: | :-: |
 | **陳文章** | **Wen-Chang Chen** | **董事長 兼 President** <br /> **化工系 (1985)** <br /> **臺灣大學校長** |
-| **廖珮真** | **Pei-Cheng Liao** | **董事 兼 Secretary** <br /> **會計系 (1991)** <br /> **臺灣大學特聘教授兼財務長** |
+| **黃國晉** | **Kuo-Chin Huang** | **董事 兼 Secretary** <br /> **醫學系 (1990)** <br /> **醫學院家庭醫學科教授兼財務長＆臺大醫院副院長** |
 | **黃慶鍾** | **Ching-Chong Huang** | **董事 兼 Treasurer** <br /> **醫學系 (1977)** <br /> **美國麻醉科醫師** |
 | **頼富雄** | **Dennis F. Lai** | **董事** <br /> **土木系 (1963)** <br /> **前北美臺大校友會聯合會會長** |
-| **謝煒馨** | **Deborah Lee** | **董事** <br /> **法律系 (1981)** <br /> **美國會計師<br />前美國 PricewaterhouseCoopers 會計師事務所合夥人** |
+| **謝煒馨** | **Deborah Lee** | **董事 兼 Assistant Treasurer** <br /> **法律系 (1981)** <br /> **美國會計師<br />前美國 PricewaterhouseCoopers 會計師事務所合夥人** |
 | **王榮騰** | **Laung-Terng Wang** | **董事** <br /> **電機系 (1975)** <br /> **華騰科技董事長兼總經理** |
