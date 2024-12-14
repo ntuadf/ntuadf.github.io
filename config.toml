@@ -3,36 +3,38 @@ languageCode = "en-us"
 title = "美國臺大學術發展基金會"
 theme = "bigspring"
 [params]
-  footer_content = "NTUADF"
-  title_en = "National Taiwan University Academic Development Foundation"
+footer_content = "NTUADF"
+title_en = "National Taiwan University Academic Development Foundation"
+logo = "/img/new-ntuadf-logo.jpeg"
+logo_width = "60"
 [menu]
 [[menu.main]]
-    name = "首頁"
-    weight = -130
-    url = "/"
+name = "首頁"
+weight = -130
+url = "/home"
 [[menu.main]]
-    name = "董事會"
-    weight = -120
-    url = "/foundation-board/"
+name = "董事會"
+weight = -120
+url = "/foundation-board/"
 [[menu.main]]
-    name = "最新動態"
-    weight = -110
-    url = "/latest-news/"
+name = "最新動態"
+weight = -110
+url = "/latest-news/"
 [[menu.main]]
-    name = "法規"
-    weight = -100
-    url = "/laws-and-regulations/"
+name = "法規"
+weight = -100
+url = "/laws-and-regulations/"
 [[menu.main]]
-    name = "相關連結"
-    weight = -90
-    url = "/affiliated-links/"
+name = "相關連結"
+weight = -90
+url = "/affiliated-links/"
 [[menu.main]]
-    name = "捐贈臺大"
-    weight = -80
-    url = "/giving-to-ntu/"
+name = "捐贈臺大"
+weight = -80
+url = "/giving-to-ntu/"
 [[menu.main]]
-    name = "聯絡我們"
-    weight = -70
-    url = "/contact-us/"
+name = "聯絡我們"
+weight = -70
+url = "/contact-us/"
 [markup.goldmark.renderer]
 unsafe = true
