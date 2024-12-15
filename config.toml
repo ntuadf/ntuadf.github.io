@@ -11,7 +11,7 @@ logo_width = "60"
 [[menu.main]]
 name = "首頁"
 weight = -130
-url = "/home"
+url = "/"
 [[menu.main]]
 name = "董事會"
 weight = -120
