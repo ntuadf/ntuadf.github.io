@@ -15,4 +15,3 @@ banner:
 |  **黃慶鍾**  | **Ching-Chong Huang** |                               **董事 兼 Treasurer** <br /> **醫學系 (1977)** <br /> **美國麻醉科醫師**                               |
 |  **頼富雄**  |   **Dennis F. Lai**   |                               **董事** <br /> **土木系 (1963)** <br /> **前北美臺大校友會聯合會會長**                                |
 |  **謝煒馨**  |    **Deborah Lee**    | **董事 兼 Assistant Treasurer** <br /> **法律系 (1981)** <br /> **美國會計師<br />前美國 PricewaterhouseCoopers 會計師事務所合夥人** |
-|  **王榮騰**  | **Laung-Terng Wang**  |                                 **董事** <br /> **電機系 (1975)** <br /> **華騰科技董事長兼總經理**                                  |
