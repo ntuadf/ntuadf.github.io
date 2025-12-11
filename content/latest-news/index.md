@@ -6,6 +6,9 @@ banner:
   image: "img/campus_aerial_1609.jpg"
 ---
 #
+#### (12/6/2025) 臺灣大學百年校慶系列講座 - 經濟展望與2025稅務條款到期對財富與慈善規劃的影響
+  - 摩根士丹利捐款與報稅專業說明會: https://www.youtube.com/watch?v=2JueMP36EIk
+
 #### (1/12/2024) 台大百歲推手募款專案 - 見證台大百年樹人軌跡
   - 百歲推手介紹: https://homepage.ntu.edu.tw/~ntufinance/more/Centennial%20Hall.jpg
   - 百歲紀念館介紹: https://homepage.ntu.edu.tw/~ntufinance/more/Hall.pdf
