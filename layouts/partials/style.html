@@ -1,0 +1,5 @@
+<link rel="preload" href="{{ "fonts/lato-latin-400-normal.woff2" | relURL }}" as="font" type="font/woff2" crossorigin>
+{{ $bootstrap := resources.Get "vendor/bootstrap/css/bootstrap.min.css" }}
+{{ $theme := resources.Get "scss/style.scss" | resources.ExecuteAsTemplate "theme.scss" . | css.Sass (dict "transpiler" "dartsass") }}
+{{ $styles := slice $bootstrap $theme | resources.Concat "css/style.css" | minify | fingerprint "sha384" }}
+<link rel="stylesheet" href="{{ $styles.RelPermalink }}" integrity="{{ $styles.Data.Integrity }}" crossorigin="anonymous">

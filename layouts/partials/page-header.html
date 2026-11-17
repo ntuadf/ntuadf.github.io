@@ -1,0 +1,21 @@
+{{ with .Params.banner }}
+  {{ with .image }}
+    {{ $image := resources.Get (printf "images/%s" (path.Base .)) }}
+    {{ with $image }}
+      {{ $small := .Resize "480x webp q80" }}
+      {{ $medium := .Resize "750x webp q82" }}
+      {{ $large := .Resize "1500x webp q82" }}
+<section aria-label="校園景觀">
+  <div class="text-center">
+    <img src="{{ $medium.RelPermalink }}"
+         srcset="{{ $small.RelPermalink }} 480w, {{ $medium.RelPermalink }} 750w, {{ $large.RelPermalink }} 1500w"
+         sizes="(max-width: 750px) 100vw, 750px"
+         alt="" class="img-fluid" width="{{ $medium.Width }}" height="{{ $medium.Height }}"
+         fetchpriority="high" decoding="async">
+  </div>
+</section>
+    {{ else }}
+      {{ errorf "Banner image %q was not found in static/img" . }}
+    {{ end }}
+  {{ end }}
+{{ end }}

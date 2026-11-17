@@ -1,0 +1,44 @@
+footer.section {
+  padding-top: 40px;
+  padding-bottom: 40px !important;
+}
+
+.content h2 {
+  font-size: 1.25rem;
+}
+
+.navbar-brand img {
+  flex-shrink: 0;
+}
+
+a:focus-visible,
+button:focus-visible,
+select:focus-visible,
+input:focus-visible,
+textarea:focus-visible {
+  outline: 3px solid #2859a8 !important;
+  outline-offset: 3px;
+}
+
+.skip-link {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 0.75rem 1rem;
+  background: #fff;
+  color: #2859a8;
+  z-index: 10000;
+  transform: translateY(-150%);
+
+  &:focus {
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 575.98px) {
+  .navbar-brand {
+    max-width: calc(100% - 4.5rem);
+    white-space: normal;
+    font-size: 1rem;
+  }
+}

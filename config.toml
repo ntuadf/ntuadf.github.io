@@ -1,12 +1,16 @@
 baseURL = "https://www.ntuadf.org/"
-languageCode = "en-us"
+locale = "zh-Hant"
+defaultContentLanguage = "zh"
+disableKinds = ["taxonomy", "term"]
 title = "美國臺大學術發展基金會"
-theme = "bigspring"
 [params]
 footer_content = "NTUADF"
 title_en = "National Taiwan University Academic Development Foundation"
 logo = "/img/new-ntuadf-logo.jpeg"
 logo_width = "60"
+language_tag = "zh-Hant"
+description = "美國臺大學術發展基金會連繫臺灣大學與美國校友及友人，支持臺大的教學、研究與人才培育。"
+favicon = "/img/new-ntuadf-logo.jpeg"
 [menu]
 [[menu.main]]
 name = "首頁"
@@ -38,3 +42,34 @@ weight = -70
 url = "/contact-us/"
 [markup.goldmark.renderer]
 unsafe = true
+
+[[module.mounts]]
+source = "assets"
+target = "assets"
+[[module.mounts]]
+source = "static"
+target = "static"
+[[module.mounts]]
+source = "static/img"
+target = "assets/images"
+[[module.mounts]]
+source = "node_modules/bootstrap/dist"
+target = "assets/vendor/bootstrap"
+[[module.mounts]]
+source = "node_modules/@fontsource/lato/files/lato-latin-400-normal.woff2"
+target = "static/fonts/lato-latin-400-normal.woff2"
+[[module.mounts]]
+source = "node_modules/@fontsource/lato/files/lato-latin-700-normal.woff2"
+target = "static/fonts/lato-latin-700-normal.woff2"
+[[module.mounts]]
+source = "node_modules/@fontsource/lato/LICENSE"
+target = "static/fonts/Lato-OFL.txt"
+[[module.mounts]]
+source = "node_modules/bootstrap/LICENSE"
+target = "static/licenses/bootstrap-MIT.txt"
+[[module.mounts]]
+source = "node_modules/@popperjs/core/LICENSE.md"
+target = "static/licenses/popper-MIT.txt"
+[[module.mounts]]
+source = "THIRD_PARTY_NOTICES.md"
+target = "static/licenses/theme-MIT.txt"

@@ -1,79 +1,64 @@
 #!/bin/bash
 
-set -e
+set -euo pipefail
 
-######## Check for required/optional inputs. ########
-
-# Determine whether using a Global API Key or a restricted API Token.
-if [ -n "$CLOUDFLARE_KEY" ]; then
-  # If they've passed a key, the account email address is also required.
-  if [ -n "$CLOUDFLARE_EMAIL" ]; then
-    API_METHOD=1
-  else
-    echo "CLOUDFLARE_EMAIL is required when using a Global API Key. Quitting."
+if [[ -n "${CLOUDFLARE_KEY:-}" ]]; then
+  if [[ -z "${CLOUDFLARE_EMAIL:-}" ]]; then
+    echo "CLOUDFLARE_EMAIL is required when using a Global API Key." >&2
     exit 1
   fi
-
-# No key was entered, check if they're using a token.
-elif [ -n "$CLOUDFLARE_TOKEN" ]; then
-  API_METHOD=2
-
-# The user hasn't entered either a key or a token, can't do anything else.
+  AUTH_HEADERS=(-H "X-Auth-Email: ${CLOUDFLARE_EMAIL}" -H "X-Auth-Key: ${CLOUDFLARE_KEY}")
+elif [[ -n "${CLOUDFLARE_TOKEN:-}" ]]; then
+  AUTH_HEADERS=(-H "Authorization: Bearer ${CLOUDFLARE_TOKEN}")
 else
-  echo "Looks like you haven't set the required authentication variables."
-  echo "Check out the README for options: https://git.io/JeBbD"
+  echo "CLOUDFLARE_TOKEN (or CLOUDFLARE_KEY and CLOUDFLARE_EMAIL) is required." >&2
   exit 1
 fi
 
-
-# Check if Zone ID is set.
-if [ -z "$CLOUDFLARE_ZONE" ]; then
-  echo "CLOUDFLARE_ZONE is not set. Quitting."
+if [[ -z "${CLOUDFLARE_ZONE:-}" ]]; then
+  echo "CLOUDFLARE_ZONE is required." >&2
   exit 1
 fi
 
-# If URL array is passed, only purge those. Otherwise, purge everything.
-if [ -n "$PURGE_URLS" ]; then
-  set -- --data '{"files":'"${PURGE_URLS}"'}'
+if [[ -n "${PURGE_URLS:-}" ]]; then
+  BODY=$(python3 -c '
+import json, os, sys
+try:
+    urls = json.loads(os.environ["PURGE_URLS"])
+    if not isinstance(urls, list) or not urls or not all(isinstance(u, str) and u for u in urls):
+        raise ValueError("expected a non-empty JSON array of URL strings")
+except (ValueError, TypeError) as error:
+    print(f"Invalid PURGE_URLS: {error}", file=sys.stderr)
+    sys.exit(1)
+print(json.dumps({"files": urls}))
+')
 else
-  set -- --data '{"purge_everything":true}'
+  BODY='{"purge_everything":true}'
 fi
 
+HTTP_RESPONSE=$(curl --silent --show-error \
+  --connect-timeout 10 --max-time 60 \
+  --retry 2 --retry-delay 1 --retry-max-time 120 \
+  "https://api.cloudflare.com/client/v4/zones/${CLOUDFLARE_ZONE}/purge_cache" \
+  -H "Content-Type: application/json" \
+  "${AUTH_HEADERS[@]}" \
+  --write-out "HTTP_STATUS:%{http_code}" \
+  --data "$BODY")
 
-######## Call the API and store the response for later. ########
+HTTP_STATUS="${HTTP_RESPONSE##*HTTP_STATUS:}"
+HTTP_BODY="${HTTP_RESPONSE%HTTP_STATUS:*}"
 
-# Using a global API key:
-if [ "$API_METHOD" -eq 1 ]; then
-  HTTP_RESPONSE=$(curl -sS "https://api.cloudflare.com/client/v4/zones/${CLOUDFLARE_ZONE}/purge_cache" \
-                      -H "Content-Type: application/json" \
-                      -H "X-Auth-Email: ${CLOUDFLARE_EMAIL}" \
-                      -H "X-Auth-Key: ${CLOUDFLARE_KEY}" \
-                      -w "HTTP_STATUS:%{http_code}" \
-                      "$@")
-
-# Using an API token:
-elif [ "$API_METHOD" -eq 2 ]; then
-  HTTP_RESPONSE=$(curl -sS "https://api.cloudflare.com/client/v4/zones/${CLOUDFLARE_ZONE}/purge_cache" \
-                      -H "Content-Type: application/json" \
-                      -H "Authorization: Bearer ${CLOUDFLARE_TOKEN}" \
-                      -w "HTTP_STATUS:%{http_code}" \
-                      "$@")
-fi
-
-
-######## Format response for a pretty command line output. ########
-
-# Store result and HTTP status code separately to appropriately throw CI errors.
-# https://gist.github.com/maxcnunes/9f77afdc32df354883df
-HTTP_BODY=$(echo "${HTTP_RESPONSE}" | sed -E 's/HTTP_STATUS\:[0-9]{3}$//')
-HTTP_STATUS=$(echo "${HTTP_RESPONSE}" | tr -d '\n' | sed -E 's/.*HTTP_STATUS:([0-9]{3})$/\1/')
-
-# Fail pipeline and print errors if API doesn't return an OK status.
-if [ "${HTTP_STATUS}" -eq "200" ]; then
-  echo "Successfully purged!"
-  exit 0
+if [[ "$HTTP_STATUS" == "200" ]] && printf '%s' "$HTTP_BODY" | python3 -c '
+import json, sys
+try:
+    response = json.load(sys.stdin)
+    valid = isinstance(response, dict) and response.get("success") is True
+except (ValueError, TypeError):
+    valid = False
+sys.exit(0 if valid else 1)
+'; then
+  echo "Cloudflare accepted the cache purge."
 else
-  echo "Purge failed. API response was: "
-  echo "${HTTP_BODY}"
+  echo "Cache purge failed (HTTP ${HTTP_STATUS}): ${HTTP_BODY}" >&2
   exit 1
 fi
