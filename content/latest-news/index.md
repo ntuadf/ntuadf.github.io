@@ -5,16 +5,15 @@ draft: false
 banner:
   image: "img/campus_aerial_1609.jpg"
 ---
-#
-#### (12/6/2025) 臺灣大學百年校慶系列講座 - 經濟展望與2025稅務條款到期對財富與慈善規劃的影響
+## (12/6/2025) 臺灣大學百年校慶系列講座 - 經濟展望與2025稅務條款到期對財富與慈善規劃的影響
   - 摩根士丹利捐款與報稅專業說明會: https://www.youtube.com/watch?v=2JueMP36EIk
 
-#### (1/12/2024) 台大百歲推手募款專案 - 見證台大百年樹人軌跡
+## (1/12/2024) 台大百歲推手募款專案 - 見證台大百年樹人軌跡
   - 百歲推手介紹: https://homepage.ntu.edu.tw/~ntufinance/more/Centennial%20Hall.jpg
   - 百歲紀念館介紹: https://homepage.ntu.edu.tw/~ntufinance/more/Hall.pdf
   - 立即捐贈: https://giving.ntu.edu.tw/backend/FastDonation.html?DonateNo=150
 
-#### (6/3/2023) 台大2023年募集「希望獎助學金」
+## (6/3/2023) 台大2023年募集「希望獎助學金」
   - 分享台大廖珮真財務長和美國台大學術發展基金會NTUADF 董事會分享的台大最新募款資訊，期盼美國各地校友會及熱心校友們也能夠來共襄盛舉，感恩！
   - 黄慶鍾
   - NTUADF 財務
@@ -35,23 +34,23 @@ banner:
   - 《台大行政體系內的學務處和教務處是怎樣不同的二個單位？
 學務處基本上就是負責學生事務（包山包海），教務處基本上是負責跟教學、課程等相關業務（也是跟學生有關！）》
 
-#### (5/20/2022) 如何最有效的捐贈及最大化省稅
+## (5/20/2022) 如何最有效的捐贈及最大化省稅
   - 主講者：毛愈會計師
   - 主辦：大芝加哥區台大校友會
   - ***[https://youtu.be/mXlz7xALbCw](https://youtu.be/mXlz7xALbCw)***
 
-#### 看見台大 - 重履心靈故鄉 NTU from above
+## 看見台大 - 重履心靈故鄉 NTU from above
   - ***[https://www.youtube.com/watch?v=YeRzYNVpTSI](https://www.youtube.com/watch?v=YeRzYNVpTSI)***
 
-#### (11/15/2021) 臺大校慶捐款邀請函
+## (11/15/2021) 臺大校慶捐款邀請函
   - ***[臺大具歷史價值建築修繕維護計畫.png](https://www.ntuadf.org/files/三折頁新版彈簧二折(第二版)-02-01.png)***
   - ***[臺大校園護樹計畫.png](https://www.ntuadf.org/files/三折頁新版彈簧二折(第二版)-02-02.png)***
   - ***[美國捐款單(中文版).pdf](https://www.ntuadf.org/files/美國中文版捐款單.pdf)***
   - ***[美國捐款單(英文版).pdf](https://www.ntuadf.org/files/美國捐款單(英文版).pdf)***
   - ***詳情請見: [https://epaper.ntu.edu.tw/view.php?id=31101](https://epaper.ntu.edu.tw/view.php?id=31101)***
 
-#### (09/22/2021) 從美國對母校抵税捐款的管道
+## (09/22/2021) 從美國對母校抵税捐款的管道
   -   ***[從美國對母校抵稅捐款的管道－NTUADF](https://www.ntuadf.org/files/NTUADF_Donation_Reminder_2021.pdf)***
 
-#### (07/01/2021) 財務管理處：充實校務基金 協助校務發展
+## (07/01/2021) 財務管理處：充實校務基金 協助校務發展
   - ***[台大校友136期－校務報報財務處.pdf](https://www.ntuadf.org/files/台大校友136期－校務報報財務處.pdf)***

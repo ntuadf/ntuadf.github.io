@@ -5,3 +5,12 @@ updates:
       directory: '/'
       schedule:
           interval: 'daily'
+    - package-ecosystem: 'npm'
+      directory: '/'
+      schedule:
+          interval: 'weekly'
+      groups:
+          frontend:
+              dependency-type: 'production'
+          browser-tests:
+              dependency-type: 'development'
